@@ -34,7 +34,7 @@ def build_site(base_url: str, target: Path = TARGET, source: Path = SOURCE) -> P
 ; For initial testing REQUIRED = 0; set REQUIRED = 1 only after verification.
 
 [SCRIPT_RACE_CONTROL_SAFETY_CAR]
-SCRIPT = {base_url}/safetycar.lua
+SCRIPT = "{base_url}/safetycar.lua"
 REQUIRED = 0
 REFRESH_PERIOD = 0
 """.format(base_url=base_url)
