@@ -1,0 +1,6 @@
+# GitHub Pages build output
+_site/
+
+# Python files
+__pycache__/
+*.py[cod]

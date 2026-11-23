@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Race Control - Safety Car Assets</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+    body { max-width: 740px; padding: 2rem 1.25rem; margin: 1rem auto; background: #161a22; color: #f2f4f6; line-height: 1.6; }
+    h1 { color: #ffdf68; } a { color: #a7d4ff; } code { background: #2c3340; padding: .15rem .3rem; border-radius: .25rem; }
+    .box { border: 1px solid #525b67; border-radius: .6rem; padding: 1rem 1.25rem; }
+  </style>
+</head>
+<body>
+  <h1>Race Control - Safety Car</h1>
+  <p>Public static assets for the Assetto Corsa CSP online-script prototype.</p>
+  <div class="box">
+    <ul>
+      <li><a href="safetycar.lua">Online Lua script</a></li>
+      <li><a href="sc_on.wav">Safety Car deployed sound (WAV)</a></li>
+      <li><a href="sc_lights_off.wav">Safety Car lights off sound (WAV)</a></li>
+      <li><a href="extra_options.ini">Generated ACSM extra-options snippet</a></li>
+    </ul>
+  </div>
+  <p>Open <code>extra_options.ini</code> and copy its contents to your server's CSP Extra Options.
+     The Lua script references the two audio files using the GitHub Pages URL configured at build time.</p>
+  <p><strong>Testing prototype:</strong> Online events are not server-authoritative;
+     the client script is not a secure competitive race-control enforcement system.</p>
+</body>
+</html>
